@@ -1,0 +1,1 @@
+Copied from [enchant.js images directory](https://github.com/wise9/enchant.js/tree/master/images)

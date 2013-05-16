@@ -1,0 +1,34 @@
+<!DOCTYPE html> 
+<html> 
+
+<head> 
+  <title>Amber Smalltalk</title> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <script src="./js/lib/enchant.js"></script>
+  <script type='text/javascript' src='./js/amber.js'></script> 
+</head> 
+
+<body style="margin:5; padding: 0;">
+<section id="intro">
+<h1>Enchant from Amber</h1>
+<p id="description">An <a href="http://enchantjs.com/">enchant.js</a> wrapper for Amber Smalltalk.</p> 
+<h3>Examples</h3>
+<div id="examples">
+<ul>
+<li><a href="timeline.html" target="frame">timeline example</a></li>
+<li><a href="touch-event.html" target="frame">touch-event example</a></li>
+<li><a href="shooting.html" target="frame">shooting game example</a></li>
+</ul>
+<p><iframe src="timeline.html" width="320" height="320" name="frame"></iframe></p>
+</div>
+<p id="note">Or in Workspace, do it " '#intro' asJQuery remove. EcShootingGameExample main"</p> 
+</section>
+<script type='text/javascript'>
+	loadAmber({
+		packages: ['Enchant-Core', 'Enchant-Examples', 'Enchant-DevUtil'],
+		ready: function() {smalltalk.Browser._open()}})
+</script> 
+</body> 
+
+</html> 
