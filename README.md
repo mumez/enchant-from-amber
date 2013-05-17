@@ -2,6 +2,8 @@ EnchantFromAmber
 ==================
 [enchant.js](http://enchantjs.com/) wrapper for [Amber Smalltalk](http://amber-lang.net/).
 
+You can develop/debug browser game super interactively in Amber Smalltalk.
+
 ## Installation ##
 Just copy and merge the whole directory to your Amber Smalltalk home. 
 Use copyAll.sh or copyAll.bat, according to your platform.
