@@ -27,6 +27,9 @@ There are some useful hook methods for override.
 
 You can start the game by "YourProgramClass main".
 
+### Note:
+EnchantFromAmber uses MNU proxy pattern for connecting to JavaScript objects. So, not all the methods are represented in Smalltalk side. Please see [enchant.js API documents](http://enchantjs.com/resource/api-documentation/) for knowing exactly what can be done by EnchantFromAmber classes.
+
 ## Examples ##
 See the 'Enchant-Examples' package. There are HTMLs included for launching the examples (
 timeline.html, touch-event.html, shooting.html).
