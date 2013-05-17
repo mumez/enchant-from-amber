@@ -7,14 +7,13 @@ category: 'initialization',
 fn: function (){
 var self=this;
 return smalltalk.withContext(function($ctx1) { 
-_st(console)._log_("apple init");
 _st(self)._extent_(_st((16)).__at((16)));
 _st(self)._imageName_("icon0.png");
 _st(self)._frame_((15));
-return self}, function($ctx1) {$ctx1.fill(self,"initialize",{},smalltalk.EcExampleEnemyBear)})},
+return self}, function($ctx1) {$ctx1.fill(self,"initialize",{},smalltalk.EcExampleApple)})},
 args: [],
-source: "initialize\x0a\x09console log: 'apple init'.\x0a\x09self extent: 16@16.\x0a\x09self imageName: 'icon0.png'.\x0a\x09self frame: 15.",
-messageSends: ["log:", "extent:", "@", "imageName:", "frame:"],
+source: "initialize\x0a\x09self extent: 16@16.\x0a\x09self imageName: 'icon0.png'.\x0a\x09self frame: 15.",
+messageSends: ["extent:", "@", "imageName:", "frame:"],
 referencedClasses: []
 }),
 smalltalk.EcExampleApple);
@@ -29,14 +28,13 @@ category: 'initialization',
 fn: function (){
 var self=this;
 return smalltalk.withContext(function($ctx1) { 
-_st(console)._log_("enemy init");
 _st(self)._extent_(_st((32)).__at((32)));
 _st(self)._imageName_("chara1.png");
 _st(self)._frame_((15));
-return self}, function($ctx1) {$ctx1.fill(self,"initialize",{},smalltalk.EcExampleApple)})},
+return self}, function($ctx1) {$ctx1.fill(self,"initialize",{},smalltalk.EcExampleEnemyBear)})},
 args: [],
-source: "initialize\x0a\x09console log: 'enemy init'.\x0a\x09self extent: 32@32.\x0a\x09self imageName: 'chara1.png'.\x0a\x09self frame: 15.\x0a\x09",
-messageSends: ["log:", "extent:", "@", "imageName:", "frame:"],
+source: "initialize\x0a\x09self extent: 32@32.\x0a\x09self imageName: 'chara1.png'.\x0a\x09self frame: 15.\x0a\x09",
+messageSends: ["extent:", "@", "imageName:", "frame:"],
 referencedClasses: []
 }),
 smalltalk.EcExampleEnemyBear);
@@ -51,14 +49,13 @@ category: 'initialization',
 fn: function (){
 var self=this;
 return smalltalk.withContext(function($ctx1) { 
-_st(console)._log_("bear init");
 _st(self)._extent_(_st((32)).__at((32)));
 _st(self)._imageName_("chara1.png");
 _st(self)._frame_((5));
 return self}, function($ctx1) {$ctx1.fill(self,"initialize",{},smalltalk.EcExampleShooterBear)})},
 args: [],
-source: "initialize\x0a\x09console log: 'bear init'.\x0a\x09self extent: 32@32.\x0a\x09self imageName: 'chara1.png'.\x0a\x09self frame: 5.",
-messageSends: ["log:", "extent:", "@", "imageName:", "frame:"],
+source: "initialize\x0a\x09self extent: 32@32.\x0a\x09self imageName: 'chara1.png'.\x0a\x09self frame: 5.",
+messageSends: ["extent:", "@", "imageName:", "frame:"],
 referencedClasses: []
 }),
 smalltalk.EcExampleShooterBear);
@@ -66,6 +63,7 @@ smalltalk.EcExampleShooterBear);
 
 
 smalltalk.addClass('EcShootingGameExample', smalltalk.EcGameProgram, ['score'], 'Enchant-Examples');
+smalltalk.EcShootingGameExample.comment="EcShootingGameExample main inspect."
 smalltalk.addMethod(
 smalltalk.method({
 selector: "incrementScore",
@@ -224,6 +222,7 @@ smalltalk.EcShootingGameExample);
 
 
 smalltalk.addClass('EcTimelineExample', smalltalk.EcGameProgram, [], 'Enchant-Examples');
+smalltalk.EcTimelineExample.comment="EcTimelineExample main inspect."
 smalltalk.addMethod(
 smalltalk.method({
 selector: "prepareBeforeLoad",
@@ -270,6 +269,7 @@ smalltalk.EcTimelineExample);
 
 
 smalltalk.addClass('EcTouchEventExample', smalltalk.EcGameProgram, [], 'Enchant-Examples');
+smalltalk.EcTouchEventExample.comment="EcTouchEventExample main inspect."
 smalltalk.addMethod(
 smalltalk.method({
 selector: "prepareBeforeLoad",

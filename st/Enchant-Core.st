@@ -494,6 +494,76 @@ onLoaded
 	"override - implement game here"
 ! !
 
+!EcCore methodsFor: 'events'!
+
+onBButtonDown: eventBlock
+	self on: 'bbuttondown' do: eventBlock
+!
+
+onBButtonUp: eventBlock
+	self on: 'bbuttonup' do: eventBlock
+!
+
+onCoreResize: eventBlock
+	self on: 'coreresize' do: eventBlock
+!
+
+onDownButtonDown: eventBlock
+	self on: 'downbuttondown' do: eventBlock
+!
+
+onDownButtonUp: eventBlock
+	self on: 'downbuttonup' do: eventBlock
+!
+
+onEnterFrame: eventBlock
+	self on: 'enterframe' do: eventBlock
+!
+
+onError: eventBlock
+	self on: 'error' do: eventBlock
+!
+
+onExitFrame: eventBlock
+	self on: 'exitframe' do: eventBlock
+!
+
+onInputChange: eventBlock
+	self on: 'inputchange' do: eventBlock
+!
+
+onInputEnd: eventBlock
+	self on: 'inputend' do: eventBlock
+!
+
+onInputStart: eventBlock
+	self on: 'inputstart' do: eventBlock
+!
+
+onLeftButtonDown: eventBlock
+	self on: 'leftbuttondown' do: eventBlock
+!
+
+onLeftButtonUp: eventBlock
+	self on: 'leftbuttonup' do: eventBlock
+!
+
+onRightButtonDown: eventBlock
+	self on: 'rightbuttondown' do: eventBlock
+!
+
+onRightButtonUp: eventBlock
+	self on: 'rightbuttonup' do: eventBlock
+!
+
+onUpButtonDown: eventBlock
+	self on: 'upbuttondown' do: eventBlock
+!
+
+onUpButtonUp: eventBlock
+	self on: 'upbuttonup' do: eventBlock
+! !
+
 !EcCore methodsFor: 'preparing'!
 
 prepareAttributes

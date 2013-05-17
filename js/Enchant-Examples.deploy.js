@@ -6,12 +6,11 @@ selector: "initialize",
 fn: function (){
 var self=this;
 return smalltalk.withContext(function($ctx1) { 
-_st(console)._log_("apple init");
 _st(self)._extent_(_st((16)).__at((16)));
 _st(self)._imageName_("icon0.png");
 _st(self)._frame_((15));
-return self}, function($ctx1) {$ctx1.fill(self,"initialize",{},smalltalk.EcExampleEnemyBear)})},
-messageSends: ["log:", "extent:", "@", "imageName:", "frame:"]}),
+return self}, function($ctx1) {$ctx1.fill(self,"initialize",{},smalltalk.EcExampleApple)})},
+messageSends: ["extent:", "@", "imageName:", "frame:"]}),
 smalltalk.EcExampleApple);
 
 
@@ -23,12 +22,11 @@ selector: "initialize",
 fn: function (){
 var self=this;
 return smalltalk.withContext(function($ctx1) { 
-_st(console)._log_("enemy init");
 _st(self)._extent_(_st((32)).__at((32)));
 _st(self)._imageName_("chara1.png");
 _st(self)._frame_((15));
-return self}, function($ctx1) {$ctx1.fill(self,"initialize",{},smalltalk.EcExampleApple)})},
-messageSends: ["log:", "extent:", "@", "imageName:", "frame:"]}),
+return self}, function($ctx1) {$ctx1.fill(self,"initialize",{},smalltalk.EcExampleEnemyBear)})},
+messageSends: ["extent:", "@", "imageName:", "frame:"]}),
 smalltalk.EcExampleEnemyBear);
 
 
@@ -40,12 +38,11 @@ selector: "initialize",
 fn: function (){
 var self=this;
 return smalltalk.withContext(function($ctx1) { 
-_st(console)._log_("bear init");
 _st(self)._extent_(_st((32)).__at((32)));
 _st(self)._imageName_("chara1.png");
 _st(self)._frame_((5));
 return self}, function($ctx1) {$ctx1.fill(self,"initialize",{},smalltalk.EcExampleShooterBear)})},
-messageSends: ["log:", "extent:", "@", "imageName:", "frame:"]}),
+messageSends: ["extent:", "@", "imageName:", "frame:"]}),
 smalltalk.EcExampleShooterBear);
 
 

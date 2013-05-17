@@ -990,12 +990,199 @@ smalltalk.EcCore);
 
 smalltalk.addMethod(
 smalltalk.method({
+selector: "onBButtonDown:",
+fn: function (eventBlock){
+var self=this;
+return smalltalk.withContext(function($ctx1) { 
+_st(self)._on_do_("bbuttondown",eventBlock);
+return self}, function($ctx1) {$ctx1.fill(self,"onBButtonDown:",{eventBlock:eventBlock},smalltalk.EcCore)})},
+messageSends: ["on:do:"]}),
+smalltalk.EcCore);
+
+smalltalk.addMethod(
+smalltalk.method({
+selector: "onBButtonUp:",
+fn: function (eventBlock){
+var self=this;
+return smalltalk.withContext(function($ctx1) { 
+_st(self)._on_do_("bbuttonup",eventBlock);
+return self}, function($ctx1) {$ctx1.fill(self,"onBButtonUp:",{eventBlock:eventBlock},smalltalk.EcCore)})},
+messageSends: ["on:do:"]}),
+smalltalk.EcCore);
+
+smalltalk.addMethod(
+smalltalk.method({
+selector: "onCoreResize:",
+fn: function (eventBlock){
+var self=this;
+return smalltalk.withContext(function($ctx1) { 
+_st(self)._on_do_("coreresize",eventBlock);
+return self}, function($ctx1) {$ctx1.fill(self,"onCoreResize:",{eventBlock:eventBlock},smalltalk.EcCore)})},
+messageSends: ["on:do:"]}),
+smalltalk.EcCore);
+
+smalltalk.addMethod(
+smalltalk.method({
+selector: "onDownButtonDown:",
+fn: function (eventBlock){
+var self=this;
+return smalltalk.withContext(function($ctx1) { 
+_st(self)._on_do_("downbuttondown",eventBlock);
+return self}, function($ctx1) {$ctx1.fill(self,"onDownButtonDown:",{eventBlock:eventBlock},smalltalk.EcCore)})},
+messageSends: ["on:do:"]}),
+smalltalk.EcCore);
+
+smalltalk.addMethod(
+smalltalk.method({
+selector: "onDownButtonUp:",
+fn: function (eventBlock){
+var self=this;
+return smalltalk.withContext(function($ctx1) { 
+_st(self)._on_do_("downbuttonup",eventBlock);
+return self}, function($ctx1) {$ctx1.fill(self,"onDownButtonUp:",{eventBlock:eventBlock},smalltalk.EcCore)})},
+messageSends: ["on:do:"]}),
+smalltalk.EcCore);
+
+smalltalk.addMethod(
+smalltalk.method({
+selector: "onEnterFrame:",
+fn: function (eventBlock){
+var self=this;
+return smalltalk.withContext(function($ctx1) { 
+_st(self)._on_do_("enterframe",eventBlock);
+return self}, function($ctx1) {$ctx1.fill(self,"onEnterFrame:",{eventBlock:eventBlock},smalltalk.EcCore)})},
+messageSends: ["on:do:"]}),
+smalltalk.EcCore);
+
+smalltalk.addMethod(
+smalltalk.method({
+selector: "onError:",
+fn: function (eventBlock){
+var self=this;
+return smalltalk.withContext(function($ctx1) { 
+_st(self)._on_do_("error",eventBlock);
+return self}, function($ctx1) {$ctx1.fill(self,"onError:",{eventBlock:eventBlock},smalltalk.EcCore)})},
+messageSends: ["on:do:"]}),
+smalltalk.EcCore);
+
+smalltalk.addMethod(
+smalltalk.method({
+selector: "onExitFrame:",
+fn: function (eventBlock){
+var self=this;
+return smalltalk.withContext(function($ctx1) { 
+_st(self)._on_do_("exitframe",eventBlock);
+return self}, function($ctx1) {$ctx1.fill(self,"onExitFrame:",{eventBlock:eventBlock},smalltalk.EcCore)})},
+messageSends: ["on:do:"]}),
+smalltalk.EcCore);
+
+smalltalk.addMethod(
+smalltalk.method({
+selector: "onInputChange:",
+fn: function (eventBlock){
+var self=this;
+return smalltalk.withContext(function($ctx1) { 
+_st(self)._on_do_("inputchange",eventBlock);
+return self}, function($ctx1) {$ctx1.fill(self,"onInputChange:",{eventBlock:eventBlock},smalltalk.EcCore)})},
+messageSends: ["on:do:"]}),
+smalltalk.EcCore);
+
+smalltalk.addMethod(
+smalltalk.method({
+selector: "onInputEnd:",
+fn: function (eventBlock){
+var self=this;
+return smalltalk.withContext(function($ctx1) { 
+_st(self)._on_do_("inputend",eventBlock);
+return self}, function($ctx1) {$ctx1.fill(self,"onInputEnd:",{eventBlock:eventBlock},smalltalk.EcCore)})},
+messageSends: ["on:do:"]}),
+smalltalk.EcCore);
+
+smalltalk.addMethod(
+smalltalk.method({
+selector: "onInputStart:",
+fn: function (eventBlock){
+var self=this;
+return smalltalk.withContext(function($ctx1) { 
+_st(self)._on_do_("inputstart",eventBlock);
+return self}, function($ctx1) {$ctx1.fill(self,"onInputStart:",{eventBlock:eventBlock},smalltalk.EcCore)})},
+messageSends: ["on:do:"]}),
+smalltalk.EcCore);
+
+smalltalk.addMethod(
+smalltalk.method({
+selector: "onLeftButtonDown:",
+fn: function (eventBlock){
+var self=this;
+return smalltalk.withContext(function($ctx1) { 
+_st(self)._on_do_("leftbuttondown",eventBlock);
+return self}, function($ctx1) {$ctx1.fill(self,"onLeftButtonDown:",{eventBlock:eventBlock},smalltalk.EcCore)})},
+messageSends: ["on:do:"]}),
+smalltalk.EcCore);
+
+smalltalk.addMethod(
+smalltalk.method({
+selector: "onLeftButtonUp:",
+fn: function (eventBlock){
+var self=this;
+return smalltalk.withContext(function($ctx1) { 
+_st(self)._on_do_("leftbuttonup",eventBlock);
+return self}, function($ctx1) {$ctx1.fill(self,"onLeftButtonUp:",{eventBlock:eventBlock},smalltalk.EcCore)})},
+messageSends: ["on:do:"]}),
+smalltalk.EcCore);
+
+smalltalk.addMethod(
+smalltalk.method({
 selector: "onLoaded",
 fn: function (){
 var self=this;
 return smalltalk.withContext(function($ctx1) { 
 return self}, function($ctx1) {$ctx1.fill(self,"onLoaded",{},smalltalk.EcCore)})},
 messageSends: []}),
+smalltalk.EcCore);
+
+smalltalk.addMethod(
+smalltalk.method({
+selector: "onRightButtonDown:",
+fn: function (eventBlock){
+var self=this;
+return smalltalk.withContext(function($ctx1) { 
+_st(self)._on_do_("rightbuttondown",eventBlock);
+return self}, function($ctx1) {$ctx1.fill(self,"onRightButtonDown:",{eventBlock:eventBlock},smalltalk.EcCore)})},
+messageSends: ["on:do:"]}),
+smalltalk.EcCore);
+
+smalltalk.addMethod(
+smalltalk.method({
+selector: "onRightButtonUp:",
+fn: function (eventBlock){
+var self=this;
+return smalltalk.withContext(function($ctx1) { 
+_st(self)._on_do_("rightbuttonup",eventBlock);
+return self}, function($ctx1) {$ctx1.fill(self,"onRightButtonUp:",{eventBlock:eventBlock},smalltalk.EcCore)})},
+messageSends: ["on:do:"]}),
+smalltalk.EcCore);
+
+smalltalk.addMethod(
+smalltalk.method({
+selector: "onUpButtonDown:",
+fn: function (eventBlock){
+var self=this;
+return smalltalk.withContext(function($ctx1) { 
+_st(self)._on_do_("upbuttondown",eventBlock);
+return self}, function($ctx1) {$ctx1.fill(self,"onUpButtonDown:",{eventBlock:eventBlock},smalltalk.EcCore)})},
+messageSends: ["on:do:"]}),
+smalltalk.EcCore);
+
+smalltalk.addMethod(
+smalltalk.method({
+selector: "onUpButtonUp:",
+fn: function (eventBlock){
+var self=this;
+return smalltalk.withContext(function($ctx1) { 
+_st(self)._on_do_("upbuttonup",eventBlock);
+return self}, function($ctx1) {$ctx1.fill(self,"onUpButtonUp:",{eventBlock:eventBlock},smalltalk.EcCore)})},
+messageSends: ["on:do:"]}),
 smalltalk.EcCore);
 
 smalltalk.addMethod(

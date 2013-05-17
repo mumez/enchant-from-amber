@@ -6,7 +6,6 @@ EcSprite subclass: #EcExampleApple
 !EcExampleApple methodsFor: 'initialization'!
 
 initialize
-	console log: 'apple init'.
 	self extent: 16@16.
 	self imageName: 'icon0.png'.
 	self frame: 15.
@@ -19,7 +18,6 @@ EcSprite subclass: #EcExampleEnemyBear
 !EcExampleEnemyBear methodsFor: 'initialization'!
 
 initialize
-	console log: 'enemy init'.
 	self extent: 32@32.
 	self imageName: 'chara1.png'.
 	self frame: 15.
@@ -32,7 +30,6 @@ EcSprite subclass: #EcExampleShooterBear
 !EcExampleShooterBear methodsFor: 'initialization'!
 
 initialize
-	console log: 'bear init'.
 	self extent: 32@32.
 	self imageName: 'chara1.png'.
 	self frame: 5.
@@ -41,6 +38,8 @@ initialize
 EcGameProgram subclass: #EcShootingGameExample
 	instanceVariableNames: 'score'
 	package: 'Enchant-Examples'!
+!EcShootingGameExample commentStamp!
+EcShootingGameExample main inspect.!
 
 !EcShootingGameExample methodsFor: 'accessing'!
 
@@ -109,6 +108,8 @@ stop
 EcGameProgram subclass: #EcTimelineExample
 	instanceVariableNames: ''
 	package: 'Enchant-Examples'!
+!EcTimelineExample commentStamp!
+EcTimelineExample main inspect.!
 
 !EcTimelineExample methodsFor: 'actions'!
 
@@ -134,6 +135,8 @@ prepareOnLoad
 EcGameProgram subclass: #EcTouchEventExample
 	instanceVariableNames: ''
 	package: 'Enchant-Examples'!
+!EcTouchEventExample commentStamp!
+EcTouchEventExample main inspect.!
 
 !EcTouchEventExample methodsFor: 'actions'!
 
