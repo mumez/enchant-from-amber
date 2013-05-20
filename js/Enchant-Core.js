@@ -9,12 +9,12 @@ var self=this;
 function $EcCore(){return smalltalk.EcCore||(typeof EcCore=="undefined"?nil:EcCore)}
 return smalltalk.withContext(function($ctx1) { 
 var $1;
-$1=_st($EcCore())._instance();
+$1=_st($EcCore())._current();
 return $1;
 }, function($ctx1) {$ctx1.fill(self,"game",{},smalltalk.EcEnchant)})},
 args: [],
-source: "game\x0a\x09^EcCore instance",
-messageSends: ["instance"],
+source: "game\x0a\x09^EcCore current",
+messageSends: ["current"],
 referencedClasses: ["EcCore"]
 }),
 smalltalk.EcEnchant);
@@ -1968,10 +1968,16 @@ category: 'instance creation',
 fn: function (x,y){
 var self=this;
 return smalltalk.withContext(function($ctx1) { 
-return new enchant.Core(x, y);
+
+	if(typeof enchant.Core === "undefined") {
+		return new enchant.Game(x, y)
+	} else {
+		return new enchant.Core(x, y)
+	}
+	;
 return self}, function($ctx1) {$ctx1.fill(self,"protoWidth:height:",{x:x,y:y},smalltalk.EcCore.klass)})},
 args: ["x", "y"],
-source: "protoWidth: x height: y\x0a\x09<return new enchant.Core(x, y)>",
+source: "protoWidth: x height: y\x0a\x09<\x0a\x09if(typeof enchant.Core === \x22undefined\x22) {\x0a\x09\x09return new enchant.Game(x, y)\x0a\x09} else {\x0a\x09\x09return new enchant.Core(x, y)\x0a\x09}\x0a\x09>",
 messageSends: [],
 referencedClasses: []
 }),

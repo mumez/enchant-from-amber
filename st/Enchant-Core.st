@@ -6,7 +6,7 @@ Object subclass: #EcEnchant
 !EcEnchant methodsFor: 'accessing'!
 
 game
-	^EcCore instance
+	^EcCore current
 ! !
 
 !EcEnchant methodsFor: 'actions'!
@@ -600,7 +600,13 @@ protoProxy: jsProxy
 !
 
 protoWidth: x height: y
-	<return new enchant.Core(x, y)>
+	<
+	if(typeof enchant.Core === "undefined") {
+		return new enchant.Game(x, y)
+	} else {
+		return new enchant.Core(x, y)
+	}
+	>
 !
 
 width: x height: y

@@ -8,10 +8,10 @@ var self=this;
 function $EcCore(){return smalltalk.EcCore||(typeof EcCore=="undefined"?nil:EcCore)}
 return smalltalk.withContext(function($ctx1) { 
 var $1;
-$1=_st($EcCore())._instance();
+$1=_st($EcCore())._current();
 return $1;
 }, function($ctx1) {$ctx1.fill(self,"game",{},smalltalk.EcEnchant)})},
-messageSends: ["instance"]}),
+messageSends: ["current"]}),
 smalltalk.EcEnchant);
 
 smalltalk.addMethod(
@@ -1411,7 +1411,13 @@ selector: "protoWidth:height:",
 fn: function (x,y){
 var self=this;
 return smalltalk.withContext(function($ctx1) { 
-return new enchant.Core(x, y);
+
+	if(typeof enchant.Core === "undefined") {
+		return new enchant.Game(x, y)
+	} else {
+		return new enchant.Core(x, y)
+	}
+	;
 return self}, function($ctx1) {$ctx1.fill(self,"protoWidth:height:",{x:x,y:y},smalltalk.EcCore.klass)})},
 messageSends: []}),
 smalltalk.EcCore.klass);
